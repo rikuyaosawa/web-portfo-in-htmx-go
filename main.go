@@ -9,6 +9,7 @@ import (
 func main() {
 	server := gin.Default()
 	server.LoadHTMLGlob("templates/*")
+	server.Static("/static", "./static")
 
 	server.GET("/", getLayoutTemplate)
 

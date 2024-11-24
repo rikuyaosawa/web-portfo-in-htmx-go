@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    width: 50%;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+h1.about {
+    font-size: 140px;
+    margin-bottom: 30px;
+}
